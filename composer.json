@@ -1,0 +1,34 @@
+{
+  "name": "opencorpora/bootstrap",
+  "description": "Sleek, intuitive, and powerful front-end framework for faster and easier web development.",
+  "type": "component",
+  "keywords": [
+    "bootstrap",
+    "css"
+  ],
+  "homepage": "http://twitter.github.com/bootstrap/",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Twitter, Inc"
+    }
+  ],
+  "require": {
+    "components/jquery": "1.9.*"
+  },
+  "extra": {
+    "component": {
+      "scripts": [
+        "js/bootstrap.min.js"
+      ],
+      "files": [
+        "js/bootstrap.min.js",
+        "css/*.css",
+        "img/*.png"
+      ],
+      "shim": {
+        "deps": ["jquery"]
+      }
+    }
+  }
+}
