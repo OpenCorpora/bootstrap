@@ -19,10 +19,12 @@
   "extra": {
     "component": {
       "scripts": [
-        "js/bootstrap.min.js"
+        "js/bootstrap.min.js",
+        "js/bootstrap.tooltip-fixed.js"
       ],
       "files": [
         "js/bootstrap.min.js",
+        "js/bootstrap.tooltip-fixed.js",
         "css/*.css",
         "img/*.png"
       ],
